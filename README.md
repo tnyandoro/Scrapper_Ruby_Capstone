@@ -7,7 +7,7 @@ This is a Ruby Capstone Project,  in this project i built a scrpper that's capab
 
 This project is a Web Scraper that takes information from Tripadvisor Website. It scrapes some information on a list of Malls found in gautegn province. It will list the name of the mall, the location and the ratings.
 
-# Built With the follwing Technologies
+## Built With the follwing Technologies
 
 Ruby
 Rspec (testing)
@@ -17,7 +17,10 @@ Rubocop
 Colorize
 byebug (for debugging)
 
-# SetUp
+## SetUp
+
+To start this project run:
+git clone https://github.com/tnyandoro/Scrapper_Ruby_Capstone.git
 
 Now create a feature branch & open a pull request based on development (develop) branch.
 
