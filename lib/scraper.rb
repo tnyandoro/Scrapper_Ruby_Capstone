@@ -4,20 +4,20 @@ require 'pry'
 require 'byebug'
 
 def scraper
-  url = 'https://themanifest.com/za/software-development/companies/'
+  url = 'https://www.tripadvisor.co.za/Attractions-g312568-Activities-c26-t143-Gauteng.html/'
   unparsed_page = HTTParty.get(url)
   parsed_page = Nokogiri::HTML(unparsed_page)
-  company_collect = []
-  companies = parsed_page.css('article.company-list-items') # 29 companies
-  companies.each do |company_list|
-    company = {
-      name: company_list.css('span').text,
-      service: company_list.css('field--name-field-pp-company-description-tm').text,
-      project: company_list.css('field--label').text,
-      url: company_list.css('a')[0].attributes['href'].value
+  malls_collect = []
+  malls = parsed_page.css('div.attraction_element') # 29 companies
+  malls.each do |mall_list|
+    mall = {
+      name: mall_list.css('div.listing_title').text,
+      reviews: mall_list.css('span.more').text,
+      info: mall_list.css('span.extra-snippet').text,
+      url: mall_list.css('a')[0].attributes['href'].value
 
     }
-    company_collect << company
+    malls_collect << mall
   end
   byebug
 end
