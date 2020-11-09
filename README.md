@@ -26,4 +26,6 @@ Now create a feature branch & open a pull request based on development (develop)
 
 After cloning the project, you should cd into the (web_scraper) directory where the code is stored & nevigate into bin older using cd bin command on the terminal, then run: bundle install to install the necessary dependencies & lastly run: ruby main.rb to see the scraper in action.
 
-To Run Rspec:
+## To Run Rspec:
+
+Open your terminal & run rspec & the program will run tests for (scraper.rb).
