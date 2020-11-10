@@ -22,5 +22,3 @@ def scraper
   #  byebug
   malls_collect
 end
-
-

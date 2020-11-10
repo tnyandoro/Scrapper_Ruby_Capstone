@@ -3,10 +3,10 @@ require_relative '../lib/data_sequence.rb'
 require 'colorize'
 
 def welcome_message
-  puts "Greetings Earthling ...entering scrape ..\n\n".red 
+  puts "Greetings Earthling ...entering scrape ..\n\n".red
   puts '*********************************************'.yellow
   puts '*********************************************'.yellow
-  puts '..............Gauteng Malls...................'.red  
+  puts '..............Gauteng Malls...................'.red
 end
 
 def all_mall_info
@@ -27,7 +27,6 @@ def all_mall_info
     puts '........Press Q to Quit.................'
     input = gets.chomp
     break if input == 'Q'
-
   end
 end
 
