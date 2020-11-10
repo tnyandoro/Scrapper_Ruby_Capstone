@@ -1,7 +1,7 @@
 require 'nokogiri'
-require 'httparty'
 require 'pry'
 require 'byebug'
+require 'httparty'
 
 def scraper
   url = 'https://www.tripadvisor.co.za/Attractions-g312568-Activities-c26-t143-Gauteng.html/'
