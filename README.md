@@ -5,6 +5,8 @@ This is a Ruby Capstone Project,  in this project i built a scrpper that's capab
 
 ### Scraper Screenshot
 
+![scraper](https://user-images.githubusercontent.com/30318155/98698267-850ceb80-237e-11eb-9570-8ac70f14c2e6.png)
+
 This project is a Web Scraper that takes information from Tripadvisor Website. It scrapes some information on a list of Malls found in gautegn province. It will list the name of the mall, the location and the ratings.
 
 ## Built With the follwing Technologies
