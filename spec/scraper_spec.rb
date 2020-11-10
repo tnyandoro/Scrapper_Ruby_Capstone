@@ -1,14 +1,18 @@
 require 'scraper'
+require 'data_sequence'
 require 'spec_helper.rb'
 
-describe ScrapedData do
-  describe '#page_data' do
-    it 'returns sequenced data from the targeted url' do
-      expect(ScrapedData.page_data.is_a?(Object)).to eql (true)
-   end
+describe 'scraper' do
+  let(:test_array){scraper}
 
-    it 'does not expect the return type to be array' do
-  expect(ScrapedData.page_data.is_a?(Array)).not_to be(true)
-    end
+  it 'returns list of malls' do
+    expect(test_array.nil?).to eql(false)
   end
-end
+  it 'length should be bigger than 1' do
+    expect(test_array.length > 1).to eql(true)
+  end
+end  
+
+
+
+

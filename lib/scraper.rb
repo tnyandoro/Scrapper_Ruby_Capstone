@@ -8,7 +8,7 @@ def scraper
   unparsed_page = HTTParty.get(url).body
   parsed_page = Nokogiri::HTML(unparsed_page)
   malls_collect = []
-  malls = parsed_page.css('div.attraction_element') # 29 companies
+  malls = parsed_page.css('div.attraction_element') # 30 malls
   malls.each do |mall_list|
     mall = {
       name: mall_list.css('div.listing_title').text,
@@ -19,6 +19,8 @@ def scraper
     }
     malls_collect << mall
   end
-  # byebug
+  #  byebug
   malls_collect
 end
+
+
