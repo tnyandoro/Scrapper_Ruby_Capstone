@@ -10,8 +10,7 @@ def welcome_message
 end
 
 def all_mall_info
-  # puts "displaying[#{mall_list.number_of_malls(mall_list.request_malls).to_s.green}]Mall list from Travel Advisor."
-  MallInfo.arrangemalls.each do |mall|
+    MallInfo.arrangemalls.each do |mall|
     sleep(1)
     system('clear')
     puts '*************************************'
