@@ -31,6 +31,10 @@ git clone https://github.com/tnyandoro/Scrapper_Ruby_Capstone.git
 Now git checkout feature branch to development & open a pull request based on development (develop) branch.
 
 After cloning the project, you should cd into the (scraper_ruby_capstone) directory where the code is stored & navigate into bin older using cd bin command on the terminal, then run: bundle install to install the necessary dependencies & lastly run: ruby main.rb to see the scraper in action.
+In the terminal or command prompt:
+- type cd Scrapper_Ruby_Capstone
+- type gem bundle install
+- type ruby bin/main.rb
 
 ## To Run Rspec:
 

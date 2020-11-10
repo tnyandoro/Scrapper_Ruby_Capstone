@@ -1,5 +1,5 @@
 require_relative 'scraper'
-require_relative'data_sequence'
+require_relative 'data_sequence'
 require_relative 'spec_helper.rb'
 
 describe 'scraper' do
