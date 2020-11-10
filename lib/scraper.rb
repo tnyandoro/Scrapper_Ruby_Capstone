@@ -18,6 +18,5 @@ def scraper
     }
     malls_collect << mall
   end
-  # byebug
   malls_collect
 end
