@@ -1,8 +1,5 @@
 require 'httparty'
-require 'open-uri'
 require 'nokogiri'
-require 'pry'
-require 'byebug'
 
 class Scraper
   def read_page()

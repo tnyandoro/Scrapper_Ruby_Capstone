@@ -10,7 +10,7 @@ def welcome_message
 end
 
 def all_mall_info
-  MallInfo.arrangemalls.each do |mall|
+  MallInfo.arrange_malls.each do |mall|
     sleep(1)
     system('clear')
     puts '*************************************'
