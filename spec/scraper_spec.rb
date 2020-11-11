@@ -1,6 +1,6 @@
-require_relative 'scraper'
-require_relative 'data_sequence'
-require_relative 'spec_helper.rb'
+require 'scraper'
+require 'data_sequence'
+require 'spec_helper.rb'
 
 describe Scraper do
   subject(:scraper) { Scraper.new }

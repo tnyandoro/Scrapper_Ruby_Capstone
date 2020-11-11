@@ -25,7 +25,7 @@ def all_mall_info
     puts '........Press enter for next Mall.......'
     puts '........Press Q to Quit.................'
     input = gets.chomp
-    break if input == 'Q'
+    break if input == 'q'
   end
 end
 
