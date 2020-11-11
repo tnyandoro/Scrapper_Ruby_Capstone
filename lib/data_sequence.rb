@@ -2,6 +2,7 @@ require_relative './scraper'
 
 class MallInfo
   def self.arrangemalls
-    scraper.sort { |a, b| a[:name] <=> b[:name] }
+    scrap = Scraper.new
+    scrap.collect_mall.sort { |a, b| a[:name] <=> b[:name] }
   end
 end
