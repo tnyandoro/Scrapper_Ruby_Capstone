@@ -5,16 +5,10 @@ require 'pry'
 require 'byebug'
 
 class Scraper
- 
-  url = 'https://www.tripadvisor.co.za/Attractions-g312568-Activities-c26-t143-Gauteng.html/'
-
-  # get the website and parsed data
-  
   def read_page()
     Nokogiri:: HTML(HTTParty.get('https://www.tripadvisor.co.za/Attractions-g312568-Activities-c26-t143-Gauteng.html/').body)
   end
 
-  # store each mall_in a hash
   def collect_mall
     malls_collect = []
     malls = read_page.css('div.attraction_element')
@@ -28,7 +22,6 @@ class Scraper
       }
       malls_collect << mall
     end
-     malls_collect
+    malls_collect
   end
 end
-

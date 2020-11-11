@@ -23,7 +23,7 @@ This project is a Web Scraper that takes information from Tripadvisor Website. I
 
 [Rplit live demo!](https://repl.it/@TendaiNyandoro/WebScraper#README.md)
 
-## SetUp
+## Setup
 
 To start this project run:
 git clone https://github.com/tnyandoro/Scrapper_Ruby_Capstone.git
