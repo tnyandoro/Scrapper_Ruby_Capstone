@@ -46,7 +46,7 @@ Open your terminal & run rspec by this command rspec --format doc & the program 
 👤 **Author**
 
 - GitHub: [@Tendai Nyandoro](https://github.com/tnyandoro)
-- Twitter: [@tendai28](https://twitter.com/tendai28)
+- Twitter: [@tendainyandoro](https://twitter.com/tendainyandoro/)
 - LinkedIn: [Tendai Nyandoro](https://www.linkedin.com/in/tendai-nyandoro-a8060826/)
 
 
